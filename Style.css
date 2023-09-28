@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(180, 171, 171);
+}
+.titulo {
+  font-family: "Dancing Script", cursive;
+  font-family: "Lobster", cursive;
+  font-family: "Vina Sans", cursive;
+  font-size: 120px;
+  text-align: center;
+  margin: 0;
+}
+.galeria {
+  display: flex;
+  width: 800px;
+  height: 430px;
+  margin: auto;
+  padding-top: 5%;
+}
+.galeria img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+.galeria img:hover {
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+}
+.VideoNicolino {
+  padding-top: 7%;
+  text-align: center;
+}
+.VideoNicolino video:hover {
+  cursor: crosshair;
+}
+.VideoNicolino h2 {
+  font-family: "Dancing Script", cursive;
+  font-family: "Vina Sans", cursive;
+  font-size: 50px;
+  margin: 0;
+}
+.VideoMaradona {
+  padding-top: 4%;
+  text-align: center;
+}
+.VideoMaradona video:hover {
+  cursor: crosshair;
+}
+.VideoMaradona h2 {
+  background-image: linear-gradient(45deg, violet, white, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Dancing Script", cursive;
+  font-family: "Vina Sans", cursive;
+  font-size: 50px;
+  margin: 0;
+}
+.VideoFangio {
+  padding-top: 4%;
+  text-align: center;
+}
+.VideoFangio video:hover {
+  cursor: crosshair;
+}
+.VideoFangio h2 {
+  font-family: "Dancing Script", cursive;
+  font-family: "Vina Sans", cursive;
+  font-size: 50px;
+  margin: 0;
+}
